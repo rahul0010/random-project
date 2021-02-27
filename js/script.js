@@ -40,7 +40,7 @@ student_enrollment_form.addEventListener('submit', async (e) => {
                                 <span class="name">${name}</span>
                                 <span class="gender">${gender.toLocaleUpperCase()}</span>
                                 <span class="email">${email}</span>
-                                <a href="#" class="link">${website}</a>
+                                <a href="${website}" target="_blank" class="link">${website}</a>
                                 <span class="skills">${skills.join(', ')}</span>
                             </div>
                         </td>
